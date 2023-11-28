@@ -17,4 +17,4 @@ COPY . .
 
 RUN chmod +x start.sh
 
-CMD ["python3","bot.py"]
+CMD python3 bot.py
